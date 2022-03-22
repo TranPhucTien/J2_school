@@ -1,0 +1,35 @@
+.header {
+    background: url(http://localhost/J2_school/cilent/image/header.png);
+    height: 7.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    justify-content: space-between;
+    &__title {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    &__link {
+        font-size: 2rem;
+        color: $text-color;
+        font-weight: 500;
+        transition: color 0.25s;
+        &:hover {
+            color: $link-color;
+        }
+    }
+}
+.search {
+	border-bottom: 1px solid #c2c2c2;
+	padding-left: 8px;
+	height: 2.5rem;
+	font-size: 1.4rem;
+	font-weight: 300;
+	width: 100%;
+	background-color: #fff;
+	&-icon {
+		color: #9e9e9e;
+		font-size: 1.8rem;
+		padding: 0 1rem 0 1rem;
+	}
+}

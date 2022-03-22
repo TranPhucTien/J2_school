@@ -1,0 +1,21 @@
+.left {
+    width: 15%;
+    min-height: 100vh;
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    &__title {
+        padding: 2rem 0 2rem 2rem;
+        color: white;
+        font-size: 1.6rem;
+        transition: all 0.2s;
+        &:hover {
+            background-color: white;
+            color: $text-color;
+        }
+    }
+}

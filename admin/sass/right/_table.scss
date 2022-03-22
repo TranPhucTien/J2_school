@@ -1,0 +1,46 @@
+table {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	table-layout: fixed;
+	margin-top: 2rem;
+}
+
+table tr {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 0.8rem;
+	margin: auto;
+}
+
+tr > td {
+	vertical-align: middle;
+	word-break: break-word;
+	word-wrap: wrap;
+}
+
+td > a {
+	font-size: 1.4rem;
+	line-height: 1.7rem;
+}
+
+table tr > td > img {
+	max-height: 10rem;
+	width: auto;
+}
+
+table th,
+table td {
+	padding: 0.8rem;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+table th {
+	font-size: 1.4rem;
+	letter-spacing: 0.1em;
+	background-color: $primary-color;
+	color: #fff;
+}

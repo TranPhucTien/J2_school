@@ -1,0 +1,51 @@
+.category {
+	width: 16.6667%;
+	padding: 0 5px;
+	display: inline-block;
+	cursor: pointer;
+	&__list {
+		& > h3 {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			font-size: 1.6rem;
+			text-transform: uppercase;
+			font-weight: 400;
+			width: 100%;
+			border-bottom: 1px solid #ccc;
+			line-height: 2;
+			padding-left: 1rem;
+			margin-bottom: 1.2rem;
+		}
+	}
+	&:checked &__item {
+		display: block;
+	}
+	&__icon {
+		padding-right: 1rem;
+	}
+	&__item {
+		// display: none;
+		span {
+			display: flex;
+			align-items: center;
+			justify-content: stretch;
+			padding-bottom: 1rem;
+			margin-left: 3rem;
+			label {
+				display: block;
+				padding-left: 0.8rem;
+				font-size: 1.5rem;
+				font-weight: 300;
+				cursor: pointer;
+			}
+		}
+		button {
+			margin-right: 1.5rem;
+			margin-bottom: 1rem;
+		}
+		input {
+			margin-right: 1rem;
+		}
+	}
+}

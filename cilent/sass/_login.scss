@@ -1,0 +1,59 @@
+.authen {
+	&-container {
+		display: flex;
+	}
+}
+.registered {
+	flex: 1;
+    padding-right: 4rem;
+	&-heading {
+		font-size: 3.2rem;
+		font-weight: 700;
+		font-family: Arial, Helvetica, sans-serif;
+		padding-bottom: 3rem;
+	}
+	&-desc {
+		font-size: 1.2rem;
+		padding-bottom: 1.4rem;
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 2rem;
+	}
+	&-notify {
+		padding-bottom: 1.8rem;
+	}
+    &-form {
+        &__title {
+            display: flex;
+            padding-bottom: 0.4rem;
+        }
+        &-sign {
+            padding-bottom: 2rem;
+            &-remember {
+                display: inline-flex;
+                align-items: center;
+                margin-bottom: 2rem;
+                &-text {
+                    cursor: pointer;
+                    user-select: none;
+                    margin-left: 4px;
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+    &-action {
+        &__forget-password {
+            margin-left: 1rem;
+            color: $link-color;
+        }
+        padding-bottom: 3rem;
+    }
+    &__forcus-text {
+        color: red;
+        font-size: 1.2rem;
+    }
+}
+.registration {
+	flex: 1;
+    padding-top: 6.2rem;
+}
